@@ -1,4 +1,36 @@
-body {
-  background: rgb(0, 152, 91);
-  background: linear-gradient(90deg, rgba(0, 152, 91, 1) 35%, rgba(0, 0, 0, 1) 100%, rgba(0, 212, 255, 1) 100%);
+:root {
+  --pr-color: #048853;
+}
+
+#hero {
+  background: linear-gradient(160deg, var(--pr-color), #000);
+  height: 100vh;
+}
+.navbar {
+  z-index: 3;
+}
+* {
+  z-index: 2;
+}
+.accsent-img {
+  z-index: 1;
+}
+.navbar-brand {
+  font-weight: 700;
+}
+.navlink.active {
+  font-weight: 700;
+}
+
+.button-primary {
+  color: var(--pr-color);
+  height: 40px;
+  width: 133px;
+  border: none;
+}
+.button-secondary {
+  color: #fff;
+  height: 40px;
+  width: 133px;
+  border: none;
 }
